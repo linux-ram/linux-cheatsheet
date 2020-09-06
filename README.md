@@ -39,12 +39,12 @@ From client,
 ```
 ssh -p 2201 <server-ip-addr>
 ```
-If not root, user "ram" can with password (by default) access remote server\
+If not root, user "ram" can with password (by default) access remote server
 ```
 ssh -p 2201 ram@<server-ip-addr>
 ```
 
-Network swiss-army-knife `netcat`\
+Network swiss-army-knife `netcat`
 ```
 netcat -l 8080
 netcat <server-ip-addr> 2201
