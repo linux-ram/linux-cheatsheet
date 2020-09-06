@@ -1,14 +1,14 @@
 # Linux Cheatsheet
 600+ distros\
 Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora\
-<img src="arch.png" width="400">
+<img src="arch.png" width="400">\
 Shell - interface\
 Kernel - communication between HW & SW. A core component of OS.\
 OS = Kernel Space + User Space\
 User Space = GUI, file system, text editor, compiler, sys admin cmds.
 
 ## Useful Linux commands
-Note: No command in caps.
+NOTE: No command in caps.
 
 `pwd` is print working directory.\
 `grep` is general regular expression pattern.
