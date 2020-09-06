@@ -1,5 +1,14 @@
 # Linux Cheatsheet
+600+ distros\
+Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora\
+<img src="arch.png" width="800">
+Shell - interface\
+Kernel - communication between HW & SW. A core component of OS.\
+OS = Kernel Space + User Space\
+User Space = GUI, file system, text editor, compiler, sys admin cmds.
+
 ## Useful Linux commands
+Note: No command in caps.
 
 `pwd` is print working directory.\
 `grep` is general regular expression pattern.
@@ -20,7 +29,14 @@ awk -F: '{print $1, "-->" $NF}' /etc/passwd
 ```
 ssh <ip-addr>
 ```
-
+On server, to check if sshd is running
+```
+#systemctl status sshd
+```
+From client,
+```
+ssh -p 2201 <server-ip-addr>
+```
 
 To Compress ----> `tar -cvf <tar-file> <source-folder>`\
 To Decompress --> `tar -xvf <tar-file>`
