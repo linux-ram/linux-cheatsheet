@@ -31,7 +31,7 @@ Output:\
 ==> ./sfp3_config <==\
 BADACCE5
 
-### Save debugs messages from mem_table.txt onto a log file:
+### Save debugs messages from *mem_table.txt* onto a log file:
 ```
 echo "Contents of mem_table.txt: " >> debug_script.log
 var1="$(cat /etc/mem_table.txt)"
