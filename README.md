@@ -5,8 +5,9 @@ Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora\
 Shell - interface\
 Kernel - A core component of OS that manages communication between HW & SW.\
 OS = Kernel Space + User Space\
-User Space = GUI, file system, text editor, compiler, sys admin cmds.
-Microkernel Architecture: Bare minimum code to run in kernel space and the rest in user space. Some key characteristics of kernel include Basic IPC, Virtual Memory Mgmt., Scheduling.
+User Space = GUI, file system, text editor, compiler, sys admin cmds.\
+Microkernel Architecture: Bare minimum code to run in kernel space and the rest in user space.\
+Some key characteristics of kernel include Basic IPC, Virtual Memory Mgmt., Scheduling.
 
 ## Useful Linux commands
 NOTE: No command in caps.
