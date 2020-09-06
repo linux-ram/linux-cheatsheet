@@ -1,7 +1,7 @@
 # Linux Cheatsheet
 600+ distros\
 Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora\
-<img src="arch.png" width="800">
+<img src="arch.png" width="400">
 Shell - interface\
 Kernel - communication between HW & SW. A core component of OS.\
 OS = Kernel Space + User Space\
