@@ -2,16 +2,16 @@
 ## Useful Linux commands
 
 `pwd` is print working directory.\
-`grep` is general regular expression pattern.\
+`grep` is general regular expression pattern.
 ```
 grep -inc RAM user.txt
 ```
-i - case insensitive, n - line #, c - # of times matched.\
+i - case insensitive, n - line #, c - # of times matched.
 ```
 ( ) | grep "Star Wars"
 ```
 
-`awk` used for text data extraction, like from a .csv file.\
+`awk` used for text data extraction, like from a .csv file.
 ```
 awk -F: '{print $1, "-->" $NF}' /etc/passwd
 ```
@@ -25,7 +25,7 @@ ssh <ip-addr>
 To Compress ----> `tar -cvf <tar-file> <source-folder>`\
 To Decompress --> `tar -xvf <tar-file>`
 
-How to Set Static IP Address and Configure Network in Linux [Click Here](https://www.tecmint.com/set-add-static-ip-address-in-linux/)
+How to Set Static IP Address and Configure Network in Linux [[Click Here](https://www.tecmint.com/set-add-static-ip-address-in-linux/)]
 
 ### Print out contents of multiple files with filenames:
 #### Approach 1:
