@@ -24,7 +24,9 @@ XENONboard_subtype\
 XENONboard_type
 
 #### Approach 2:
-```$ find ./ -type f |  xargs tail -n +1```\
+```
+$ find ./ -type f |  xargs tail -n +1
+```
 Output:\
 ==> ./sfp3_config <==\
 BADACCE5
