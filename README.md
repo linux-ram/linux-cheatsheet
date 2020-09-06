@@ -33,12 +33,23 @@ ssh <ip-addr>
 ```
 On server, to check if sshd is running
 ```
-#systemctl status sshd
+systemctl status sshd
 ```
 From client,
 ```
 ssh -p 2201 <server-ip-addr>
 ```
+If not root, user "ram" can with password (by default) access remote server\
+```
+ssh -p 2201 ram@<server-ip-addr>
+```
+
+Network swiss-army-knife `netcat`\
+```
+netcat -l 8080
+netcat <server-ip-addr> 2201
+```
+o/p will inform if port 2201 is open.
 
 To Compress ----> `tar -cvf <tar-file> <source-folder>`\
 To Decompress --> `tar -xvf <tar-file>`
