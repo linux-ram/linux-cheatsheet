@@ -10,12 +10,12 @@ Some key characteristics of kernel include Basic IPC, Virtual Memory Mgmt., Sche
 
 ## Linux distros and packages
 600+ distros\
-Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora\
+Package management -> apt-get: Debian, apt: Ubuntu, yum: RHEL, dnf: Fedora
 
 ## Useful Linux commands
 NOTE: No command in caps.
 
-`pwd` is print working directory.\
+`pwd` is print working directory.
 ### `grep`
 `grep` is general regular expression pattern.
 ```
